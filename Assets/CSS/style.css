@@ -16,10 +16,12 @@
     }
 
     header {
-        background-color: rgba(105, 101, 101, 0.219);
+        background-color: rgba(222, 246, 255, 0.712);
+        backdrop-filter: blur(8px);
+        border-top: 1px solid;
         padding: 20px;
-        padding-bottom: 20px;
-        
+        position: sticky;
+        top: 0;
     }
 
     .Topbar {
@@ -37,6 +39,7 @@
         justify-content: center;
         position: relative;
         bottom: 30px;
+        z-index: 10;
     }
 
     .searchBar {
@@ -48,8 +51,9 @@
         display: flex;
         align-items: center;
         padding: var(--padding);
-        border: 2px solid rgba(0, 0, 0, 0.301);
+        border: 2px solid rgb(255, 255, 255);
         border-radius: 20px;
+        cursor: text;
     }
 
     .search-input{
@@ -61,15 +65,8 @@
         border: none;
         outline: none;
         flex: 1;
+        cursor: text;
     }
-
-    .quickSearch {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 5em;
-    }
-
 
     #name {
         display: flex;
@@ -81,13 +78,17 @@
         margin-left: 5rem;
     }
 
+    .main {
+        background-color: blanchedalmond;
+        height: 400vh;
+    }
+
     .bookLayout {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100vw;
-        height: 110vh;
-        background-color: rgb(105, 133, 133);
+        height: 100vh;
     }
     #bookBox {
         display: grid;
@@ -127,6 +128,17 @@
         border-radius: 6px;
         border: 1px solid black;
         background-color: rgb(247, 211, 157);
+    }
+
+    .symCheckLayout {
+        display: flex;
+        justify-content: center;
+    }
+
+    .symptomChecker {
+        background-color: black;
+        width:80px;
+        height: 40px;
     }
 
 
