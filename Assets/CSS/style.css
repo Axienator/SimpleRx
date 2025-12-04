@@ -1,163 +1,20 @@
-    * {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .Title {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    #name {
-        color: rgba(0, 0, 255, 0.664);
-    }
-
-    header {
-        background-color: rgba(222, 246, 255, 0.712);
-        backdrop-filter: blur(8px);
-        border-top: 1px solid;
-        padding: 20px;
-        position: sticky;
-        top: 0;
-    }
-
-    .Topbar {
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        gap: 3vw;
-        position: relative;
-        bottom: 50px;
-        cursor: pointer;
-    }
-
-    .search-layout {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        bottom: 30px;
-        z-index: 10;
-    }
-
-    .searchBar {
-        --padding: 5px;
+@import url('./Header.css');
+@import url('./Body.css');
+@import url('./SymCheck.css');
 
 
-        width: max-content;
-        width: max-content;
-        display: flex;
-        align-items: center;
-        padding: var(--padding);
-        border: 2px solid rgb(255, 255, 255);
-        border-radius: 20px;
-        cursor: text;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    .search-input{
-        font-size: 15px;
-        font-family: 'Lexend', sans-serif;
-        width: 25vw;
-        margin-left: 14px;
-        background: transparent;
-        border: none;
-        outline: none;
-        flex: 1;
-        cursor: text;
-    }
 
-    #name {
-        display: flex;
-        margin-left: 5rem;
-    }
+ 
 
-    #description {
-        display: flex;
-        margin-left: 5rem;
-    }
 
-    .main {
-        background-color: blanchedalmond;
-        height: 400vh;
-    }
 
-    .bookLayout {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        height: 100vh;
-    }
-    #bookBox {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 1em;
-        width: 50vw;
-        height: 80vh;
-    }
-
-    #Content1{
-        border-radius: 6px;
-        border: 1px solid black;
-        background-color: aqua;
-    }
-    #Content2{
-        border-radius: 6px;
-        border: 1px solid black;
-        background-color: aliceblue;
-    }
-    #Content3{
-        border-radius: 6px;
-        border: 1px solid black;
-        background-color: aquamarine;
-    }
-    #Content4{
-        border-radius: 6px;
-        border: 1px solid black;
-        background-color: azure;
-    }
-    #Content5{
-        border-radius: 6px;
-        border: 1px solid black;
-        background-color: bisque;
-    }
-    #Content6{
-        border-radius: 6px;
-        border: 1px solid black;
-        background-color: rgb(247, 211, 157);
-    }
-
-    .symCheckLayout {
-        display: flex;
-        justify-content: center;
-    }
-
-    .symptomChecker {
-        border: 1px solid black;
-        background-color: rgb(255, 255, 255);
-        border-radius: 10px;
-        width: 40vw;
-        padding: 1em;
-    }
-    
-    .symptomChecker h3 {
-        padding: 20px;
-    }
-
-    .symCbLayout {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 1em;
-    }
-
-    .symCheckBox-container {
-        border: 1px solid black;
-        width: 10em;
-    }
 
 
 

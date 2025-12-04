@@ -1,0 +1,51 @@
+.main {
+        background-color: blanchedalmond;
+        height: 400vh;
+    }
+
+    .bookLayout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+    #bookBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1em;
+        width: 50vw;
+        height: 80vh;
+    }
+
+    #Content1{
+        border-radius: 6px;
+        border: 1px solid black;
+        background-color: aqua;
+    }
+    #Content2{
+        border-radius: 6px;
+        border: 1px solid black;
+        background-color: aliceblue;
+    }
+    #Content3{
+        border-radius: 6px;
+        border: 1px solid black;
+        background-color: aquamarine;
+    }
+    #Content4{
+        border-radius: 6px;
+        border: 1px solid black;
+        background-color: azure;
+    }
+    #Content5{
+        border-radius: 6px;
+        border: 1px solid black;
+        background-color: bisque;
+    }
+    #Content6{
+        border-radius: 6px;
+        border: 1px solid black;
+        background-color: rgb(247, 211, 157);
+    }
