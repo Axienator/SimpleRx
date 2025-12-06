@@ -26,3 +26,7 @@
     border: 1px solid black;
     width: 10em;
 }
+
+#symResult {
+    padding: 10px 20px;
+}
