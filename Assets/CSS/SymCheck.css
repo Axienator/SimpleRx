@@ -5,7 +5,7 @@
 
 .symptomChecker {
     border: 1px solid black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(224, 217, 217);
     border-radius: 10px;
     width: 55vw;
     padding: 1em;
@@ -29,4 +29,18 @@
 
 #symResult {
     padding: 10px 20px;
+}
+
+input[type='checkbox'] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 2em;
+    width: 2em;
+    background-color: aliceblue;
+}
+
+label[for='cb1'], [for='cb2'], [for='cb3'], [for='cb4'], [for='cb5'], [for='cb6'], [for='cb7'], [for='cb8'] {
+    display: flex;
+    align-items: center;
+    text-align: center;
 }

@@ -5,11 +5,15 @@
     }
 
     #name {
-        color: rgba(0, 0, 255, 0.664);
+        color: rgba(211, 211, 245, 0.664);
+    }
+
+    #description {
+        color:azure
     }
 
     header {
-        background-color: rgba(222, 246, 255, 0.712);
+        background-color: rgba(155, 155, 155, 0.712);
         backdrop-filter: blur(8px);
         border-top: 1px solid;
         padding: 20px;

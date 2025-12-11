@@ -1,13 +1,9 @@
 const Symptom = {
-    sympOne: document.querySelector('.symCheckBox1'),
-    sympTwo: document.querySelector('.symCheckBox2'),
-    sympThree: document.querySelector('.symCheckBox3'),
-    sympFour: document.querySelector('.symCheckBox4'),
-    sympFive: document.querySelector('.symCheckBox5'),
-    sympSix: document.querySelector('.symCheckBox6'),
-    sympSeven: document.querySelector('.symCheckBox7'),
-    sympEight: document.querySelector('.symCheckBox8'),
+    checkBoxes: document.querySelectorAll('input[checkbox]'),
+    sympSubmit: document.querySelector('.symCheckResult'),
+    result: document.querySelector('#result')
 }
+
 
 // Group the Symptom into three, Mild, Moderate, Severe
 
